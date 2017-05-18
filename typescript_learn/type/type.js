@@ -5,16 +5,12 @@
 // let myname:string = 'huk';
 // let allword:string = 'hi,my name is ${myname} i am ${age} years old';
 // console.log(allword);
-
 console.log('gt');
-
-function getage(age:number){
-    return "age"+age;
+function getage(age) {
+    return "age" + age;
 }
 // getage("hi");   报错
-
 getage(23);
-
-let arr:any[] = ['a','b'];
-
-console.log(arr)
+var arr1 = ['a', 'b'];
+console.log(arr1);
+//# sourceMappingURL=type.js.map
